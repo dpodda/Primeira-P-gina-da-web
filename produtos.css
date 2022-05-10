@@ -1,0 +1,26 @@
+header{
+	background:  #BBBBBB; /*cor de fundo */
+	padding: 20px; /*espaçamento interno*/
+}
+.caixa{
+	position:  relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav{
+	position: absolute;
+	top:  110px;
+	right: 0;
+}
+
+nav li{
+	display: inline; /*transforma bloco em linha*/
+	margin: 0 0 0 15px ; /* espaçamento da margem coordenadas (cima, baixo, direita, esquerda) */
+	}
+nav a {
+	text-transform:uppercase; /*Letra Maiuscula*/
+	color: #000000;
+	font-weight: blod; /*negrito*/
+	font-size: 22px;
+	text-decoration: none;   /* Tirar sublinhado */
+}
